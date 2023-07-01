@@ -1,0 +1,70 @@
+p{
+    text-shadow:
+    0 1px #000,
+    0 -1px #000,
+    1px 0 #000,
+    -1px 0 #000;
+}
+.title__info p:first-child{
+    font-size: 10px;
+    color: #fff;
+}
+.fa-chevron-down,.fa-plus{
+    color: #5b10e7;
+}
+.controll i{
+    color: #3c3b3bdc;
+}
+.controll i:nth-child(1):hover,i:nth-child(2):hover, i:nth-child(4):hover, i:nth-child(5):hover {
+    cursor: pointer;
+    color: #b48defdc;
+}
+
+.icon__play i{
+    color: #fff;
+    font-size: 30px;
+    background: #6060eb;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 5px 17px #8387ef;
+} 
+.icon__play i:hover{
+    color: #FFF;
+    background-color: #6060ebc6;
+}
+.title__info p{
+    text-align: center;
+}
+.title__info p:last-child {
+    font-size: 25px;
+    color: #5b10e7;
+}
+span{
+    display: block;
+}
+.text__bold{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text__blur{
+    font-family: sans-serif;
+    color: #fff;
+}
+.controll .active{
+    color: #690af8dc;
+    animation: chuyenmau 2s linear infinite;
+}
+@keyframes chuyenmau {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.app #own{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -1px;
+}
